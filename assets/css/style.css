@@ -1,0 +1,514 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#101010
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {     font-family: "Newton Howard";     src: url("./assets/newton_howard/Newton\ Howard\ Font.otf") format("opentype"); }
+@font-face {     font-family: "Designer";     src: url("./assets/designer_2/Designer.otf") format("opentype"); }
+body{
+    background-image: url("../img/Glow\ Black\ And\ White\ GIF\ by\ xponentialdesign\ -\ Find\ &\ Share\ on\ GIPHY.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Header */
+.container-header {
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.785);
+    border: solid 1px white;
+    width: 75%;
+    height: 25vh;
+}
+#header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.8);
+    height: 7.7vh;
+    transition: top 0.3s;
+    transition-delay: 0.2s;
+}
+
+#header.hidden {
+    top: -80px;
+}
+.menu{
+    font-family: "Designer";
+    /* padding: 2vh; */
+   
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    transition: all 2s ease;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: #457F76;
+    /* background-size:50%; */
+    padding: 0.5vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Designer";
+    font-size: 6vh;
+    letter-spacing: 0.3vh;
+    padding-top: 2.5%;
+}
+.description{
+    font-family: "Designer";
+    font-size: 2.5vh;
+    padding-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5vh;
+    color:#457F76; ;
+    
+}
+/* a propos de moi  */
+.container-me{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-me{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 75vh;
+}
+.about-me h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+}
+.about{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+.present{
+    display:flex ;
+    align-items: center;
+    padding-left: 10vh;
+    padding-right: 5vh;
+    padding-top: 10vh;
+}
+.profil img{
+    width: 65%;
+    height: 65%;
+    border:solid #457F76;
+    /* padding: 10vh; */
+}
+.titledesc{
+    font-family:"Designer";
+    font-size: 2.5vh;
+    letter-spacing: 0.3vh;
+}
+.desc ul{
+    list-style-type: none;
+    letter-spacing: 0.3vh;
+}
+.descname{
+    /* font-family: "Designer"; */
+    font-size: 2vh;
+    letter-spacing: 0.3vh;
+}
+/* compétences */
+.skills-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 55vh;
+}
+.skills h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+}
+.skill{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+.container-skill{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5%;
+}
+.container-skill ul{
+    list-style-type: none;
+}
+.container-skill h3{
+    font-family: "Designer";
+}
+.container-skill li{
+    font-size: 2.5vh;
+}
+.progress{
+    width: 40vh;
+}
+.background{
+    background-color: #457F76;
+}
+/* centre d'intérets */
+.center-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-interest{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 55vh;
+}
+.container-interest div:hover{
+    transform:scale(1.2) ;
+    color: #457F76;
+}
+.container-interest div{
+    transition: 0.5s;  
+}
+.center h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+}
+.center{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+.container-interest{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15vh;
+    padding-left:2vw ;
+    padding-right:2vw ;
+    gap: 4vh;
+   
+}
+.all{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.2em;
+}
+.video-games{
+    font-family: "Designer";
+    border: 3px solid #dee2e6;
+    font-size: 3.5vh;
+    padding: 2.5%;
+
+}
+.music{
+    font-family: "Designer";
+    border: 3px solid #dee2e6;
+    font-size: 3.5vh;
+    padding: 2.5%;
+}
+.sport{
+    font-family: "Designer";
+    border: 3px solid #dee2e6;
+    font-size: 3.5vh;
+    padding: 2.5%;
+}
+.other{
+    font-family: "Designer";
+    border: 3px solid #dee2e6;
+    font-size: 3.5vh;
+    padding: 2.5%;
+}
+/* expérience */
+.exp-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exp-container img:hover{
+    transform: scale(1.2);
+    filter: brightness(150%);
+}
+.exp-container img{
+    transition: 0.5s;
+}
+.exp{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 100vh;
+}
+.experience h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+}
+.experience{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+.experience-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25vh;
+    padding-left: 10vh;}
+.years2021 img{
+width: 80%;
+}
+.years2022 img{
+
+width: 80%;
+}
+.years2023 img{
+
+width: 80%;
+}
+
+/* portfolio */
+.portfolio-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 75vh;
+}
+.portf h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+    letter-spacing: 0.1vh;
+}
+.portf{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+.projet{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25vh;
+    padding-left: 10vh;}
+.projet-trouvailles img{
+width: 80%;
+}
+.projet-boulangerie img{
+
+width: 80%;
+}
+.projet-autre img{
+
+width: 80%;
+}
+/* contact */
+.contact-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-parent{
+    background-color: rgba(0, 0, 0, 0.785);
+    width: 75%;
+    height: 50vh;
+}
+.contact h2{
+    display: flex;
+    padding-left: 5vh;
+    padding-top: 4vh;
+    letter-spacing: 0.1vh;
+}
+.contact{
+    font-family: "Designer";
+    font-size: 2vh;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+.modal-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #000000de;
+    margin: 10%;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+#title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Designer";
+    font-size: 6vh ;
+    color:  #457F76;
+    text-decoration: underline;
+}
+#soustitle{
+    display: flex;
+    padding-left: 2vh;
+    padding-top: 8vh;
+    justify-content: center;
+    text-align: center;
+    font-family: "Designer";
+    font-size: 4vh ;
+    color: white;
+    
+}
+#desc{
+    display: flex;
+    color: white;
+    padding-top: 4vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5vh;
+}
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+  /* The Close Button */
+  .close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* testtttttttttttt */
+/* contact */
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    padding-top: 7vh;
+    align-items: center;
+}
+.cardBox {
+    perspective: 500px;
+    margin: 15px;
+    
+}
+
+.card {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #FFF;
+    transform-style: preserve-3d;
+    transition: 1s;
+    box-shadow: 0px 30px 30px rgb(0, 0, 0, 0.5);
+    border-top-left-radius: 20%;
+    border-top-right-radius: none;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 20%;
+}
+
+.facebook {
+    background: #457F76;
+}
+
+.twitter {
+    background: #457F76;
+}
+
+.googleplus {
+    background: #457F76;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    color: #FFF;
+    backface-visibility: hidden;
+}
+.card-back a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-front {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center
+}
+
+.card-back {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center
+}
+
+.cardBox:hover .card {
+    transform: rotateY(180deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
