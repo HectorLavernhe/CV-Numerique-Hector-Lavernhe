@@ -264,6 +264,7 @@ h1{
 .exp-container img:hover{
     transform: scale(1.2);
     filter: brightness(150%);
+    cursor: pointer;
 }
 .exp-container img{
     transition: 0.5s;
@@ -271,7 +272,7 @@ h1{
 .exp{
     background-color: rgba(0, 0, 0, 0.785);
     width: 75%;
-    height: 100vh;
+    height: 75vh;
 }
 .experience h2{
     display: flex;
@@ -309,7 +310,7 @@ width: 80%;
 .portfolio{
     background-color: rgba(0, 0, 0, 0.785);
     width: 75%;
-    height: 75vh;
+    height: 100vh;
 }
 .portf h2{
     display: flex;
@@ -323,19 +324,27 @@ width: 80%;
 }
 .projet{
     display: flex;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
     justify-content: space-evenly;
     padding-top: 25vh;
-    padding-left: 10vh;}
+    gap: 6vh;
+}
+.projet img{
+    transition: 0.5s;
+}
+.projet img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
 .projet-trouvailles img{
-width: 80%;
+width: 100%;
 }
 .projet-boulangerie img{
 
-width: 80%;
-}
-.projet-autre img{
-
-width: 80%;
+width: 100%;
+}.projet-autre img{
+width: 100%;
 }
 /* contact */
 .contact-container{
@@ -473,6 +482,9 @@ width: 80%;
 }
 
 .googleplus {
+    background: #457F76;
+}
+.cv{
     background: #457F76;
 }
 
