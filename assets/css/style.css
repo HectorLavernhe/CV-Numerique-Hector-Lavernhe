@@ -74,9 +74,9 @@ body{
     padding-top: 1%;
 }
 .menu a:hover{
-    background-color: #457F76;
+    color: #457F76;
     /* background-size:50%; */
-    padding: 0.5vh;
+    /* padding: 0.5vh; */
 }
 h1{
     display: flex;
