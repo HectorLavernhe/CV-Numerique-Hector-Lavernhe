@@ -42,6 +42,7 @@ body{
     border: solid 1px white;
     width: 75%;
     height: 25vh;
+
 }
 #header{
     position: fixed;
@@ -60,7 +61,6 @@ body{
 .menu{
     font-family: "Designer";
     /* padding: 2vh; */
-   
     display: flex;
     justify-content: space-evenly; 
     align-items: center;
@@ -71,6 +71,7 @@ body{
 .menu a{
     color: white;
     text-decoration: none;
+    padding-top: 1%;
 }
 .menu a:hover{
     background-color: #457F76;
@@ -523,4 +524,22 @@ width: 100%;
 
 .card-back {
     transform: rotateY(180deg);
+}
+.responsive{
+    display: none;
+}
+@media (max-width: 1000px) {
+.content{
+    display: none;
+}
+body{
+    background-color: black;
+    background-image: none;
+}
+.responsive{
+    display: block;
+    color: white;
+    font-family: "Designer";
+    font-size: 5vw;
+}
 }
