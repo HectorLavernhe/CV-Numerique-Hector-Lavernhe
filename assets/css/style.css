@@ -29,6 +29,9 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.bold{
+    font-weight: bold;
+}
 /* Header */
 .container-header {
     color: white;
