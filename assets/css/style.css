@@ -25,7 +25,7 @@
 @font-face {     font-family: "Newton Howard";     src: url("./assets/newton_howard/Newton\ Howard\ Font.otf") format("opentype"); }
 @font-face {     font-family: "Designer";     src: url("./assets/designer_2/Designer.otf") format("opentype"); }
 body{
-    background-image: url("../img/Glow\ Black\ And\ White\ GIF\ by\ xponentialdesign\ -\ Find\ &\ Share\ on\ GIPHY.gif");
+    background-image: url("../img/Popular\ in\ dreamsmpxreader.gif");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -74,7 +74,7 @@ body{
     padding-top: 1%;
 }
 .menu a:hover{
-    color: #457F76;
+    color: blue;
     /* background-size:50%; */
     /* padding: 0.5vh; */
 }
@@ -94,7 +94,7 @@ h1{
     justify-content: center;
     padding-top: 2.5%;
     padding-bottom: 2.5vh;
-    color:#457F76; ;
+    color:blue; ;
     
 }
 /* a propos de moi  */
@@ -128,7 +128,7 @@ h1{
 .profil img{
     width: 65%;
     height: 65%;
-    border:solid #457F76;
+    border:solid blue;
     /* padding: 10vh; */
 }
 .titledesc{
@@ -184,7 +184,7 @@ h1{
     width: 40vh;
 }
 .background{
-    background-color: #457F76;
+    background-color: blue;
 }
 /* centre d'intérets */
 .center-container{
@@ -200,7 +200,7 @@ h1{
 }
 .container-interest div:hover{
     transform:scale(1.2) ;
-    color: #457F76;
+    color: blue;
 }
 .container-interest div{
     transition: 0.5s;  
@@ -430,7 +430,7 @@ width: 100%;
     text-align: center;
     font-family: "Designer";
     font-size: 6vh ;
-    color:  #457F76;
+    color:  blue;
     text-decoration: underline;
 }
 #soustitle{
@@ -501,18 +501,18 @@ width: 100%;
 }
 
 .facebook {
-    background: #457F76;
+    background: blue;
 }
 
 .twitter {
-    background: #457F76;
+    background: blue;
 }
 
 .googleplus {
-    background: #457F76;
+    background: blue;
 }
 .cv{
-    background: #457F76;
+    background: blue;
 }
 
 .card-front,

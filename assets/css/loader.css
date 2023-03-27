@@ -20,7 +20,7 @@
   
   .button {
     height: 100%;
-    background-color:  #457F76;
+    background-color:  blue;
     padding: 1rem 2rem;
     cursor: pointer;
     color: black;
@@ -57,7 +57,7 @@
     height: 100%;
     margin: -.25rem -5rem;
     border-radius: 1rem;
-    background-color:  #457F76;
+    background-color:  blue;
     transform-origin: left;
     transform: scaleX(0%);
     animation: load 2.5s ease-in-out .5s forwards;
