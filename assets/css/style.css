@@ -28,6 +28,7 @@ body{
     background-image: url("../img/Popular\ in\ dreamsmpxreader.gif");
     background-size: cover;
     background-attachment: fixed;
+    cursor:url(../img/curseur.png),auto;
 }
 .bold{
     font-weight: bold;
