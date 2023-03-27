@@ -311,7 +311,7 @@ width: 80%;
 .portfolio{
     background-color: rgba(0, 0, 0, 0.785);
     width: 75%;
-    height: 100vh;
+    height: 150vh;
 }
 .portf h2{
     display: flex;
@@ -329,14 +329,15 @@ width: 80%;
     margin-right: 2.5vw;
     justify-content: space-evenly;
     padding-top: 25vh;
-    gap: 6vh;
+    gap: 10vh;
+    flex-direction: column;
 }
 .projet img{
     transition: 0.5s;
 }
 .projet img:hover{
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .projet-trouvailles img{
 width: 100%;
@@ -346,6 +347,31 @@ width: 100%;
 width: 100%;
 }.projet-autre img{
 width: 100%;
+}
+.projet-popchill img{
+    width: 100%;
+    }
+.projet-maison-levasseur img{
+        width: 100%;
+        }
+.projet-festival img{
+            width: 100%;
+            }
+.projet-un{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.projet-deux{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.text-img{
+    font-family: "Designer";
+    text-align: center;
+    font-size: 0.75vw;
+    letter-spacing: 0.2vw;
 }
 /* contact */
 .contact-container{
@@ -528,6 +554,7 @@ width: 100%;
 .responsive{
     display: none;
 }
+
 @media (max-width: 1000px) {
 .content{
     display: none;
