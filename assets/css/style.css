@@ -79,6 +79,7 @@ body{
 }
 .menu a:hover{
     color: blue;
+    cursor:url(../img/curseur.png),auto;
     /* background-size:50%; */
     /* padding: 0.5vh; */
 }
@@ -202,10 +203,11 @@ h1{
     width: 75%;
     height: 55vh;
 }
-.container-interest div:hover{
+/* .container-interest div:hover{
     transform:scale(1.2) ;
     color: blue;
-}
+    cursor:url(../img/curseur.png),auto;
+} */
 .container-interest div{
     transition: 0.5s;  
 }
@@ -269,7 +271,7 @@ h1{
 .exp-container img:hover{
     transform: scale(1.2);
     filter: brightness(150%);
-    cursor: pointer;
+    cursor:url(../img/curseur.png),auto;
 }
 .exp-container img{
     transition: 0.5s;
@@ -340,7 +342,7 @@ width: 80%;
     transition: 0.5s;
 }
 .projet img:hover{
-    cursor: pointer;
+    cursor:url(../img/curseur.png),auto;
     transform: scale(1.05);
 }
 .projet-trouvailles img{
@@ -473,7 +475,7 @@ width: 100%;
   .close:focus {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    cursor: pointer;
+    cursor:url(../img/curseur.png),auto;
   }
   /* testtttttttttttt */
 /* contact */
