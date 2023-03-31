@@ -131,9 +131,9 @@ h1{
     padding-top: 10vh;
 }
 .profil img{
-    width: 65%;
-    height: 65%;
-    border:solid blue;
+    width: 20vw;
+    /* height: 50vh; */
+    padding-right: 3.5vw;
     /* padding: 10vh; */
 }
 .titledesc{
